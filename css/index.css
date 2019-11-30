@@ -1,0 +1,562 @@
+/*清除默认样式开始*/
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+}
+/*清除默认样式结束*/
+
+/*头部开始*/
+.header-box{
+    width:100%;
+    height:40px;
+    background:#333;
+    font-size:12px;
+}
+.center{
+    width:1226px;
+    margin:0 auto;
+}
+.zuo a{
+    color:#B0B0B0;
+    line-height:40px;
+    float:left;
+}
+.zuo span{
+    color:#424242;
+    margin:0 3px;
+    float:left;
+    line-height:40px;
+}
+.you a{
+    color:#B0B0B0;
+    line-height:40px;
+    float:right;
+}
+.you span{
+    color:#424242;
+    margin:0 3px;
+    line-height:40px;
+    float:right;
+}
+.car{
+    width:120px;
+    height:40px;
+    background:#424242;
+    text-align:center;
+    margin-left:30px;
+}
+.car .icon-gouwuchekong{
+    font-size: 16px;
+    color: #B0B0B0;
+    margin-right: 6px;
+}
+.zuo a:hover{
+    color: white;
+}
+
+.car:hover{
+    color: orange;
+    background-color: white;
+}
+.car:hover i{
+    color: orange;
+}
+.bianse:hover{
+    color: white;
+}
+/*头部结束*/
+/*导航开始*/
+.navigation{
+    width:1226px;
+    height:100px;
+    background:#ffffff;
+    margin:0 auto;
+    position:relative;
+}
+.logo img{
+    width:55px;
+    height:55px;
+    z-index:1;
+    top:0;
+    bottom:0;
+    margin:auto;
+    position:absolute;
+}
+.logo .kuang{
+    width:234px;
+    height:100px;
+    background:#333333;
+}
+.logo .wenzikuang{
+    width:992px;
+    height:100px;
+    background:black;
+}
+.kuang span{
+    margin-left:200px;
+}
+.navigation-1{
+    width:630px;
+    height:100px;
+    position:absolute;
+    top:0;
+    left:234px;
+    line-height:100px;
+}
+.wenzikuang span{
+    font-size:16px;
+    margin-right:10px;
+}
+.wenzikuang span:hover{
+    color:orange;
+}
+.navigation-3{
+    width: 378px;
+    float: left;
+}
+
+.navigation-search{
+    width: 244px;
+    height: 48px;
+    float: right;
+    margin: 25px 0;
+    border: 1px solid #eeeeee;
+    position: relative;
+}
+.search-zheng{
+    width: 190px;
+    height: 20px;
+    float: right;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+.search-zheng .search-a{
+    font-size: 12px;
+    color: #757575;
+    background: #eee;
+    padding: 0 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.search-zheng .search-b{
+    font-size: 12px;
+    color: #757575;
+    background: #eee;
+    padding: 0 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.search-a:hover{
+    background: orangered;
+    color: white;
+}
+.search-b:hover{
+    background: orangered;
+    color: white;
+}
+.navigation-search-1{
+    width: 51px;
+    height: 48px;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    margin: 25px 0;
+    float: right;
+}
+.navigation-search-1:hover{
+    background-color: orangered;
+}
+
+.navigation-search-1 .icon-sousuo{
+    font-size: 28px;
+    margin-left: 10px;
+    line-height: 48px;
+    color: #666666;
+}
+.navigation-search-1:hover .icon-sousuo{
+    background-color: orangered;
+    color: white;
+}
+.navigation-search input{
+    width: 240px;
+    height: 45px;
+    display: inline-block;
+    outline: none;
+    border: none;
+}
+/*导航结束*/
+/*轮播图开始*/
+.banner-content{
+    width:1226px;
+    height:460px;
+    background:black;
+    margin:0 auto;
+}
+.banner-imgs{
+    width:100%;
+    height:100%;
+    background:green;
+    position:relative;
+}
+.banner-imgs img{
+    width:1226px;
+    height:auto;
+    position:absolute;
+    top:0;
+    left:0;
+    margin:auto;
+}
+.first5{
+    z-index:2;
+}
+.banner-imgs .apple{
+    width:234px;
+    height:460px;
+    background:#959a9f;
+    z-index:3;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.apple a{
+    display:block;
+    height:42px;
+    line-height:42px;
+    padding-left:30px;
+    color:#ffffff;
+    position:relative;
+}
+.apple i{
+    float:right;
+    color:white;
+    margin-left:40px;
+}
+.big1{
+    width:234px;
+    height:42px;
+    background:#959a9f;
+}
+.big1 :hover{
+    background-color:#ff6700;
+}
+.apple.shang{
+    padding-top:10px;
+}
+.apple.xia{
+    padding-bottom:10px;
+}
+.apple.iconfont{
+    margin-left:80px;
+}
+/*轮播图结束*/
+/*小米秒杀开始*/
+.seckill{
+    width:1226px;
+    height:170px;
+    margin:0 auto;
+    margin-top:14px;
+}
+.seckill-1{
+    width:234px;
+    height:170px;
+    float:left;
+    margin-right:14px;
+}
+.seckill-2{
+    width:316px;
+    height:170px;
+    background:black;
+    float:left;
+    margin-right:14px;
+}
+.seckill-2 img{
+    width:100%;
+    height:170px;
+}
+.seckill-3{
+    width:316px;
+    height:170px;
+    background:black;
+    float:left;
+    margin-right:14px;
+}
+.seckill-3 img{
+    width:100%;
+    height:170px;
+}
+.seckill-4{
+    width:316px;
+    height:170px;
+    background:black;
+    float:left;
+}
+.seckill-4 img{
+    width:100%;
+    height:170px;
+}
+.miaosha-1{
+    width:76px;
+    height:67px;
+    background:#5f5750;
+    float:left;
+    padding-top:15px;
+    margin:1.5px 0 1px 1.5px;
+}
+.miaosha-1 i{
+    font-size:24px;
+    margin-left:26px;
+    color:#f7f7f7;
+}
+.miaosha-1 p{
+    margin-top:13px;
+    color:#f7f7f7;
+    text-align:center;
+    font-size:13px;
+}
+/*小米秒杀结束*/
+/*小米闪购开始*/
+.sales{
+    width:1226px;
+    height:57.6px;
+    background:#f5f5f5;
+    margin:0 auto;
+    margin-top:15px;
+}
+.sales-1{
+    font-size:22px;
+    line-height:57.6px;
+    color:#333333;
+}
+.sales-2{
+    width:36px;
+    height:24px;
+    border:1px solid #333;
+    float:right;
+    margin-top:20px;
+    margin-right:7px;
+}
+.sales-3{
+    width:36px;
+    height:24px;
+    border:1px solid #333;
+    float:right;
+    margin-top:20px;
+}
+.sangou{
+    width:1240px;
+    height:340px;
+    margin:0 auto;
+}
+.sangou .sangou-1{
+    width:234px;
+    height:340px;
+    background:black;
+    float:left;
+    margin-left:12px;
+}
+/*小米闪购结束*/
+/*小米9开始*/
+.mi9{
+    width:1226px;
+    height:120px;
+    background:black;
+    margin:0 auto;
+    margin-top:14px;
+}
+.mi9 img{
+    width:100%;
+    height:120px;
+}
+/*小米9结束*/
+/*手机开始*/
+.shouji{
+    width:1226px;
+    height:614px;
+    background:#f5f5f5;
+    margin:0 auto;
+}
+.shouji-1{
+    width:234px;
+    height:614px;
+    float:left;
+}
+.shouji-1 img{
+    width:100%;
+    height:614px;
+}
+.shouji-2{
+    width:992px;
+    height:614px;
+    float:left;
+}
+.shouji-3{
+    width:234px;
+    height:260px;
+    background:#ffffff;
+    padding:20px 0;
+    float:left;
+    margin:0 0 14px 14px;
+}
+.shouji-3 img{
+    width:160px;
+    height:160px;
+    margin-left:37px;
+    margin-top:20px;
+}
+.wenzi1{
+    font-size:14px;
+    text-align:center;
+    margin-top:5px;
+}
+.wenzi2{
+    font-size:14px;
+    text-align:center;
+    color:#b0b0b0;
+}
+.wenzi3{
+    font-size:12px;
+    text-align:center;
+    color:#ff6700;
+    margin-top:10px;
+}
+/*手机结束*/
+/*家电开始*/
+.jiadian{
+    width:1226px;
+    height:614px;
+    background:#dcdcdc;
+    margin:0 auto;
+}
+.jiadian1{
+    width:234px;
+    height:614px;
+    background:#f5f5f5;
+    float:left;
+}
+.jiadian2{
+    width:234px;
+    height:300px;
+    background:red;
+}
+.jiadian2 img{
+    width:100%;
+    height:300px;
+}
+.jiadian3{
+    width:234px;
+    height:300px;
+    background:red;
+    margin-top:14px;
+}
+.jiadian4{
+    width:992px;
+    height:614px;
+    background:#dcdcdc;
+    float:left;
+}
+.jiadian3 img{
+    width:100%;
+    height:300px;
+}
+.jiadian5{
+    width:234px;
+    height:260px;
+    background:#ffffff;
+    padding:20px 0;
+    float:left;
+    margin:0 0 14px 14px;
+    position:relative;
+}
+.wenben1{
+    font-size:14px;
+    text-align:center;
+}
+.wenben2{
+    font-size:12px;
+    text-align:center;
+    color:#b0b0b0;
+}
+.wenben3{
+    font-size:14px;
+    text-align:center;
+    color:#ff6700;
+    margin-top:10px;
+}
+.wenben3 span{
+    color:#b0b0b0;
+    text-decoration:line-through;
+}
+.wenben4{
+    margin-top:30px;
+    margin-left:30px;
+    font-size:14px;
+}
+.wenben5{
+    margin-top:20px;
+    margin-left:30px;
+    font-size:12px;
+    color:#ff6700;
+}
+.jiadian5 img{
+    width:160px;
+    height:160px;
+    margin-top:20px;
+    margin-left:37px;
+}
+.jiadian6{
+    width:233px;
+    height:143px;
+    background:white;
+    position:absolute;
+    top:0;
+}
+.jiadian6 img{
+    width:80px;
+    height:80px;
+    float:right;
+    margin-right:14px;
+}
+.jiadian-1{
+    width:234px;
+    height:260px;
+    background:#333333;
+    padding:20px 0;
+    float:left;
+    margin:0 0 14px 14px;
+    position:relative;
+}
+.jiadian7{
+    width:233px;
+    height:143px;
+    background:white;
+    position:absolute;
+    bottom:0;
+}
+.text{
+    width: 94px;
+    height: 44px;
+    float: left;
+    margin-top:43px;
+    margin-left:30px;
+}
+.wenben6{
+    font-size:18px;
+}
+.wenben7{
+    font-size:12px;
+    margin-top: 4px;
+}
+.jiadian i{
+    font-size: 48px;
+    color: #ff6700;
+    margin-top: 43px;
+    float: left;
+}
+/*家电结束*/
+/*智能开始*/
+
+/*智能结束*/
